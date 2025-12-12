@@ -1,21 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hackathon</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackathon</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-    <h1>Hello World</h1>
+
+
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
+    <div class="container">
+
+
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="img/Group 237743.svg" width="120" alt="Logo" />
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+
+        <img src="img/search-minus.png" alt="">
+        <!-- Contact Button -->
+        <a href="#" class="btn btn-purple ms-3 px-4">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+
+        <!-- LEFT CONTENT -->
+        <div class="col-lg-6">
+          <p class="text-uppercase small mb-2">Featured Post</p>
+
+          <h1 class="hero-title">How AI will<br />Change the Future</h1>
+
+          <p class="hero-text">
+            The future of AI will see smarter robots, better automation,
+            enhanced intelligence, and new possibilities. From modern
+            healthcare to smart homes — AI is shaping tomorrow.
+          </p>
+
+          <a href="#" class="btn btn-light read-btn">Read more</a>
+        </div>
+
+        <!-- RIGHT IMAGE -->
+        <div class="col-lg-6 text-center">
+          <img src="img/Container.svg" alt="AI Image" class="hero-img" />
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+
+
+    <section class="container p-0">
+      <img src="img/Container (1).svg" class="hero-img" alt="VR Image">
+    </section>
+    <div class="content-card">
+
+      <div class="d-flex align-items-center">
+        <span class="category">DEVELOPMENT</span>
+        <span class="blog-date">16 March 2023</span>
+      </div>
+
+      <h2 class="title">
+        How to make a Game look more attractive with New VR & AI Technology
+      </h2>
+
+      <p class="desc">
+        Google has been investing in AI for many years and bringing its benefits
+        to individuals, businesses and communities. Whether it’s publishing
+        state-of-the-art research, building helpful products or developing tools
+        and resources that enable others, we’re committed to making AI accessible
+        to everyone.
+      </p>
+
+      <a href="#" class="btn btn-read mt-3">Read More</a>
+    </div>
+  </section>
+  <!-- RECENT POST HEADER -->
+  <section class="container py-4">
+    <div class="d-flex justify-content-between align-items-center">
+      <h2 class="section-title">Our Recent Post</h2>
+
+      <a href="#" class="btn btn-purple px-4">View All</a>
+    </div>
+  </section>
+
+  <!-- POST CONTENT -->
+  <section class="container pb-5">
+    <div class="row g-4 align-items-center">
+
+      <!-- LEFT IMAGE -->
+      <div class="col-md-6">
+        <img src="img/Image Placeholder.svg" alt="VR Image" class="vr-img">
+      </div>
+
+      <!-- RIGHT TEXT -->
+      <div class="col-md-6">
+        <div class="d-flex align-items-center mb-2">
+          <span class="category">DEVELOPMENT</span>
+          <span class="date">16 March 2023</span>
+        </div>
+
+        <h3 class="post-title">
+          How to make a Game look more attractive with New<br>
+          VR & AI Technology
+        </h3>
+
+        <p class="desc">
+          Google has been investing in AI for many years and bringing its
+          benefits to individuals, businesses and communities. Whether it's
+          publishing state-of-the-art research, building helpful products or
+          developing tools and resources that enable others, we’re committed to
+          making AI accessible to everyone.
+        </p>
+
+        <a href="#" class="btn btn-outline-purple">Read More</a>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="container py-5">
+    <div class="row g-4">
+
+      <!-- CARD 1 -->
+      <div class="col-md-4">
+        <div class="blog-card">
+          <img src="img/Image Placeholder (1).svg" alt="">
+          <p class="blog-cat mt-2">Travel &nbsp;&nbsp; 13 March 2023</p>
+          <h5 class="blog-title">8 Rules Of Travelling In Sea You Need To Know</h5>
+          <p class="blog-desc">
+            Travelling in sea has many advantages. Some of the advantages of transporting goods by sea include:
+            you can ship large volumes at costs.
+          </p>
+          <a href="#" class="more">Read More...</a>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="col-md-4">
+        <div class="blog-card">
+          <img src="img/Image Placeholder (2).svg" alt="">
+          <p class="blog-cat mt-2">Development &nbsp;&nbsp; 11 March 2023</p>
+          <h5 class="blog-title">How to build strong portfolio and get a Job in UI/UX</h5>
+          <p class="blog-desc">
+            Capitalize on low hanging fruit to identify a ballpark value added activity to beta test.
+            Override the digital divide with additional clickthroughs.
+          </p>
+          <a href="#" class="more">Read More...</a>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="col-md-4">
+        <div class="blog-card">
+          <img src="img/Image Placeholder (3).svg" alt="">
+          <p class="blog-cat mt-2">Sports &nbsp;&nbsp; 10 March 2023</p>
+          <h5 class="blog-title">How to Be a Professional Footballer in 2023</h5>
+          <p class="blog-desc">
+            Organically grow the holistic world view of disruptive innovation
+            via workplace diversity and empowerment.
+          </p>
+          <a href="#" class="more">Read More...</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
 
 
 
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+  <div class="container py-5">
+
+    <section class="container py-4">
+      <div class="d-flex justify-content-between align-items-center">
+        <h2 class="section-title">Popular Post</h2>
+
+        <a href="#" class="btn btn-purple px-4">View All</a>
+      </div>
+    </section>
+    <!-- Cards Grid -->
+    <div class="row g-4">
+
+      <!-- CARD 1 -->
+      <div class="col-md-4">
+        <div class="post-card">
+          <img src="img/Container (3).svg" alt="">
+          <p class="post-cat mt-2">Travel &nbsp;&nbsp; 14 March 2023</p>
+          <h5 class="post-title">Train Or Bus Journey? Which one suits?</h5>
+          <p class="post-desc">
+            The choice between a train or bus journey depends on many factors such as distance...
+          </p>
+          <a href="#" class="more">Read More...</a>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="col-md-4">
+        <div class="post-card">
+          <img src="img/Container (4).svg" alt="">
+          <p class="post-cat mt-2">Development &nbsp;&nbsp; 11 March 2023</p>
+          <h5 class="post-title">Best Website to research for your next project</h5>
+          <p class="post-desc">
+            Capitalize on low hanging fruit to identify a ballpark value added activity...
+          </p>
+          <a href="#" class="more">Read More...</a>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="col-md-4">
+        <div class="post-card">
+          <img src="img/Container (5).svg" alt="">
+          <p class="post-cat mt-2">Sports &nbsp;&nbsp; 10 March 2023</p>
+          <h5 class="post-title">How to Be a Dancer in 2023 with proper skills?</h5>
+          <p class="post-desc">
+            Organically grow the holistic world view of disruptive innovation...
+          </p>
+          <a href="#" class="more">Read More...</a>
+        </div>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="col-md-4">
+        <div class="post-card">
+          <img src="img/Container (6).svg" alt="">
+          <p class="post-cat mt-2">Travel &nbsp;&nbsp; 15 March 2023</p>
+          <h5 class="post-title">Who is the best singer on chart? Know him?</h5>
+          <p class="post-desc">
+            Crafting the perfect path takes different strategies and dedication...
+          </p>
+          <a href="#" class="more">Read More...</a>
+        </div>
+      </div>
+
+      <!-- CARD 5 -->
+      <div class="col-md-4">
+        <div class="post-card">
+          <img src="img/Container (7).svg" alt="">
+          <p class="post-cat mt-2">Development &nbsp;&nbsp; 14 March 2023</p>
+          <h5 class="post-title">How to start export import business from home?</h5>
+          <p class="post-desc">
+            Capitalize on low hanging fruit to identify a ballpark value...
+          </p>
+          <a href="#" class="more">Read More...</a>
+        </div>
+      </div>
+
+      <!-- CARD 6 -->
+      <div class="col-md-4">
+        <div class="post-card">
+          <img src="img/Container (8).svg" alt="">
+          <p class="post-cat mt-2">Sports &nbsp;&nbsp; 16 March 2023</p>
+          <h5 class="post-title">Make some drinks with chocolates chocolates and milk</h5>
+          <p class="post-desc">
+            Organically grow the holistic world view of workplace diversity...
+          </p>
+          <a href="#" class="more">Read More...</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <section class="subscribe-section">
+    <h2 class="fw-bold  h11">Get our stories delivered From <br>us to your inbox weekly.</h2>
+
+    <div class="subscribe-input d-flex justify-content-center">
+      <input type="email" class="form-control" placeholder="Your Email">
+      <button>Get started</button>
+    </div>
+
+    <p class="mt-2 pera">
+      Get a response tomorrow if you submit by 6pm today.
+      If we receive after <br> 6pm we will get a response the following day.
+    </p>
+
+
+    <img src="" class="waves">
+  </section>
+
+
+  <footer class="footer">
+
+
+    <div class="logo1">
+      <img src="img/Group 237743.svg" alt="">
+    </div>
+
+    <!-- MENU LINKS -->
+    <div class="footer-links mt-3">
+      <a href="#">Home</a>
+      <a href="#">Blog</a>
+      <a href="#">About</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <!-- SOCIAL ICONS -->
+    <div class="social-icons mt-4">
+      <i class="bi bi-facebook"></i>
+      <i class="bi bi-instagram"></i>
+      <i class="bi bi-linkedin"></i>
+      <i class="bi bi-youtube"></i>
+    </div>
+    <hr>
+
+    <div class="copy">
+      Copyright Ideapeel Inc © 2023. All Right Reserved
+    </div>
+
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
